@@ -1,0 +1,12 @@
+ <h2>
+    Employee Details are here
+  </h2>
+  <h3>
+    {{errorMsg}}
+  </h3>
+  <ul *ngFor="let employee of employees">
+    <!-- here we are reflecting all details of employee list -->
+    <li>
+      {{employee.id}}-{{employee.name}}-{{employee.age}}
+    </li>
+  </ul>
