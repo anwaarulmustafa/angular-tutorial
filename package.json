@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@angular/material": "^13.3.2"
+  }
+}
